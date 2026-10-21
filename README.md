@@ -254,3 +254,9 @@ Mostly yes. The strong open-source options (LiteLLM, Haystack, Semantic Kernel, 
 **👩‍💻 Made for AI engineers, ML researchers, prompt engineers, and application developers.**  
 
 Let's make LLM programming more open, systematic, and vendor-neutral.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-LLM-Programming-Frameworks&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-LLM-Programming-Frameworks&type=date&legend=top-left)
