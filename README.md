@@ -189,7 +189,7 @@ The market is **moderately fragmented, not winner-take-all**. Grand View Researc
 
 
 
-**🔑 Key architectural insight**: The **programming-not-prompting** paradigm (DSPy, LogiLLM, onux) treats prompts as learnable parameters optimized against metrics — a fundamentally different approach from manual prompt engineering. However, DSPy couples optimized prompts to its program abstraction (lock-in risk), while **Promptolution produces standalone prompt strings** for better portability across systems . Framework-specific patterns (orchestration topology, state management) should not be depended upon for portability; universal patterns like JSON Schema tool contracts and MCP interop are safe to rely on .
+**🔑 Key architectural insight**: The **programming-not-prompting** paradigm (DSPy, LogiLLM, onux) treats prompts as learnable parameters optimized against metrics — a fundamentally different approach from manual prompt engineering. However, DSPy couples optimized prompts to its program abstraction (lock-in risk), while **Promptolution produces standalone prompt strings** for better portability across systems. Framework-specific patterns (orchestration topology, state management) should not be depended upon for portability; universal patterns like JSON Schema tool contracts and MCP interop are safe to rely on.
 
 
 
@@ -225,11 +225,13 @@ Mostly yes. The strong open-source options (LiteLLM, Haystack, Semantic Kernel, 
 
 1. Fork the repo.
 
-2. Add/edit entries in `README.md` (follow existing format).
+2. Add/edit your entry in `README.md` — the SaaS table lives under [🏢 SaaS/Hosted Platforms](#-saashosted-platforms) and the open-source table under [🐙 Open-Source GitHub Projects](#-open-source-github-projects).
 
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+3. Include: name, link, 1–2 sentence description, pricing and free-tier limits (SaaS only), license and category (open source only), and company size (SaaS only).
 
-4. Submit PR with a short explanation.
+4. Sort the table by its stated key: company size descending for SaaS, star count descending for open source.
+
+5. Submit a PR with a short explanation.
 
 
 
@@ -247,7 +249,7 @@ Mostly yes. The strong open-source options (LiteLLM, Haystack, Semantic Kernel, 
 
 - LLM programming frameworks manage API keys and sensitive data; ensure proper secret management and access controls when self-hosting.
 
-- Prompt optimization requires evaluation data and metrics; DSPy and similar frameworks are most valuable when you have a clear objective function to optimize against .
+- Prompt optimization requires evaluation data and metrics; DSPy and similar frameworks are most valuable when you have a clear objective function to optimize against.
 
 
 
