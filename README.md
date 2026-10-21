@@ -119,9 +119,9 @@ The market is **moderately fragmented, not winner-take-all**. Grand View Researc
 
 ## 🐙 Open-Source GitHub Projects
 
-*Every project below is open source and self-hostable. Star counts are live, pulled from the GitHub API on October 2026, and the list is sorted by stars descending. Each star badge links to that project's stargazers page.*
+*Every project below is open source and self-hostable. Stars_Counts are live, pulled from the GitHub API on October 2026, and the list is sorted by GitHub_Stars descending. Each Stars_Badge links to that project's stargazers page.*
 
-| Project | ⭐ Stars | 📜 License | 🗂️ Category | 📝 Description |
+| Project | ⭐ GitHub_Stars | 📜 License | 🗂️ Category | 📝 Description |
 | --- | --- | --- | --- | --- |
 | **[Ollama](https://github.com/ollama/ollama)** <a href="https://github.com/ollama/ollama/stargazers"><img src="https://img.shields.io/github/stars/ollama/ollama?style=social&color=white" alt="Ollama stars" /></a> | 184.2k | MIT | Local Runtime | Run and serve open models locally with a single command — the default local runtime for self-hosted LLM pipelines. |
 | **[Dify](https://github.com/langgenius/dify)** <a href="https://github.com/langgenius/dify/stargazers"><img src="https://img.shields.io/github/stars/langgenius/dify?style=social&color=white" alt="Dify stars" /></a> | 159.2k | Apache-2.0 | App Builder | Build agentic workflows and RAG pipelines on one collaborative workspace, deployable to cloud, VPC or fully self-hosted. |
@@ -183,7 +183,7 @@ The market is **moderately fragmented, not winner-take-all**. Grand View Researc
 
 ### 📦 Also Available Outside GitHub
 
-- **[Parolo](https://pypi.org/project/parolo/)** — Tiny, file-based prompt store with automatic versioning. Zero infrastructure, prompts stored as plain text with immutable versions, SHA-256 hashing to only create versions when content changes, Jinja2 rendering and hot-reload support for agents. Distributed via PyPI, so it has no GitHub star count.
+- **[Parolo](https://pypi.org/project/parolo/)** — Tiny, file-based prompt store with automatic versioning. Zero infrastructure, prompts stored as plain text with immutable versions, SHA-256 hashing to only create versions when content changes, Jinja2 rendering and hot-reload support for agents. Distributed via PyPI, so it has no GitHub Stars_Count.
 
 **🧱 Frameworks for building custom systems**: Combine **DSPy** for declarative pipelines with automatic optimization, **Promptolution** for systematic prompt benchmarking, and **LogiLLM** for zero-dependency production deployment. For prompt management, layer in **PromptHub** for local-first storage with version control and **PUPT** for CLI-driven workflows. For visual prompt optimization, **PromptPerfect (Open Source)** provides browser-based improvement with explanations.
 
@@ -214,7 +214,7 @@ Individual plans run from **$8/month** (PromptFolder Pro) to **$24.99/month** (F
 Start from constraints, not features: data residency, budget model, team skill, and whether you need a UI or a library. If you can ship code, prefer open source; if you need a marketplace or a browser extension today, prefer SaaS. Plenty of teams run both — an open-source runtime with a commercial prompt layer on top.
 
 **What are the most popular LLM programming frameworks right now?**
-By GitHub stars among the projects tracked here: **Ollama** (184.2k), **Dify** (159.2k), **Open WebUI** (156.4k), **LangChain** (148.2k) and **vLLM** (94.8k) lead the runtime layer, while **DSPy** (38.7k) and **Prompt Optimizer** (38.8k) lead the prompt-optimization layer.
+By GitHub_Stars among the projects tracked here: **Ollama** (184.2k), **Dify** (159.2k), **Open WebUI** (156.4k), **LangChain** (148.2k) and **vLLM** (94.8k) lead the runtime layer, while **DSPy** (38.7k) and **Prompt Optimizer** (38.8k) lead the prompt-optimization layer.
 
 **Can I use these frameworks with any LLM provider?**
 Mostly yes. The strong open-source options (LiteLLM, Haystack, Semantic Kernel, LangChain, LlamaIndex) expose OpenAI-compatible interfaces or provider adapters for OpenAI, Anthropic, Google Gemini, Mistral, Meta Llama, DeepSeek, Groq and local models served through Ollama or vLLM.
@@ -229,7 +229,7 @@ Mostly yes. The strong open-source options (LiteLLM, Haystack, Semantic Kernel, 
 
 3. Include: name, link, 1–2 sentence description, pricing and free-tier limits (SaaS only), license and category (open source only), and company size (SaaS only).
 
-4. Sort the table by its stated key: company size descending for SaaS, star count descending for open source.
+4. Sort the table by its stated key: company size descending for SaaS, Stars_Count descending for open source.
 
 5. Submit a PR with a short explanation.
 
@@ -272,7 +272,7 @@ Let's make LLM programming more open, systematic, and vendor-neutral.
 | ⭐ **Star** the repo | Keeps the list discoverable and signals which frameworks the community actually relies on. |
 | 🍴 **Fork** it | Send a pull request — new frameworks, corrected pricing, better descriptions. |
 | 💬 **Share** it | Drop it into your team's onboarding docs so the next engineer doesn't re-research the whole space. |
-| ☕ **Buy me a coffee** | Funds the time spent re-verifying pricing tiers, star counts and company data every month. |
+| ☕ **Buy me a coffee** | Funds the time spent re-verifying pricing tiers, Stars_Counts and company data every month. |
 
 <a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/sponsor-Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor" /></a>
 
