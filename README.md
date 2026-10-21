@@ -22,7 +22,7 @@
 
 - [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 
-- [☁️ SaaS/Hosted Platforms](#-saashosted-platforms)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
 
 - [🐙 Open-Source GitHub Projects](#-open-source-github-projects)
 
@@ -30,7 +30,7 @@
 
 - [🤝 How to Contribute](#-how-to-contribute)
 
-- [⚠️ Disclaimer](#-disclaimer)
+- [🚨 Disclaimer](#-disclaimer)
 
 
 
@@ -84,7 +84,7 @@ The **prompt engineering and prompt management software** sector is a **~$0.4–
 
 The market is **moderately fragmented, not winner-take-all**. Grand View Research explicitly characterises prompt engineering as a **fragmented** market with "numerous market participants and product launches" — specialist vendors such as PromptBase, PromptHero, Vellum and AIPRM compete alongside large platform players, while the adjacent prompt-management niche (Langfuse, Humanloop, PromptLayer, LangSmith, Maxim AI) shows no single dominant vendor. The structural driver is that **prompt tooling is being absorbed into LLM development, observability and evaluation platforms**, so standalone vendors keep re-benchmarking themselves against bundled features; expect continued consolidation rather than a clean monopoly.
 
-## ☁️ SaaS/Hosted Platforms
+## 🏢 SaaS/Hosted Platforms
 
 *Sorted by company size (revenue / valuation) descending. Pricing and free-tier figures were verified against each vendor's own pricing pages in October 2026.*
 
@@ -221,7 +221,7 @@ Mostly yes. The strong open-source options (LiteLLM, Haystack, Semantic Kernel, 
 
 
 
-## ⚠️ Disclaimer
+## 🚨 Disclaimer
 
 
 
