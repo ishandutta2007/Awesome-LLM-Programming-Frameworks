@@ -29,6 +29,8 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -38,6 +40,12 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 - [Disclaimer](#disclaimer)
 
 
+
+## Sector Overview & Market Dynamics
+
+The **prompt engineering and prompt management software** sector is a **~$0.4–0.5B global market** in 2024–2025, growing at roughly **33% CAGR** toward **~$2B by 2030** (Market.us: $381.7M in 2024 at 33.9% CAGR; Precedence Research: $505.18M in 2025 at ~32.9% CAGR; Grand View Research: $222.1M in 2023 → $2.06B by 2030 at 32.8%). Wider definitions that bundle in agent frameworks, evaluation and observability are much larger — Mordor Intelligence sizes **prompt engineering + agent programming tools at $6.95B in 2025, reaching $40.87B by 2030 (42.52% CAGR)** — but that figure covers far more than prompt tooling alone.
+
+The market is **moderately fragmented, not winner-take-all**. Grand View Research explicitly characterises prompt engineering as a **fragmented** market with "numerous market participants and product launches" — specialist vendors such as PromptBase, PromptHero, Vellum and AIPRM compete alongside large platform players, while the adjacent prompt-management niche (Langfuse, Humanloop, PromptLayer, LangSmith, Maxim AI) shows no single dominant vendor. The structural driver is that **prompt tooling is being absorbed into LLM development, observability and evaluation platforms**, so standalone vendors keep re-benchmarking themselves against bundled features; expect continued consolidation rather than a clean monopoly.
 
 ## SaaS/Hosted Platforms
 
