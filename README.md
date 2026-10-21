@@ -8,39 +8,39 @@
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Prompt Optimization, Declarative Programming & Modular AI Pipelines*  
-**Last updated: October 2026** · 57 open-source projects · 8 SaaS platforms
+🗓️ **Last updated: October 2026** · 57 open-source projects · 8 SaaS platforms
 
 
 
-## Table of Contents
+## 📚 Table of Contents
 
-- [What Are LLM Programming Frameworks?](#what-are-llm-programming-frameworks)
+- [🧠 What Are LLM Programming Frameworks?](#-what-are-llm-programming-frameworks)
 
-- [Why LLM Programming Frameworks Matter](#why-llm-programming-frameworks-matter)
+- [💡 Why LLM Programming Frameworks Matter](#-why-llm-programming-frameworks-matter)
 
-- [Who This List Is For](#who-this-list-is-for)
+- [👥 Who This List Is For](#-who-this-list-is-for)
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [☁️ SaaS/Hosted Platforms](#-saashosted-platforms)
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+- [🐙 Open-Source GitHub Projects](#-open-source-github-projects)
 
-- [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
+- [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
 
-- [How to Contribute](#how-to-contribute)
+- [🤝 How to Contribute](#-how-to-contribute)
 
-- [Disclaimer](#disclaimer)
+- [⚠️ Disclaimer](#-disclaimer)
 
 
 
-## What Are LLM Programming Frameworks?
+## 🧠 What Are LLM Programming Frameworks?
 
 An **LLM programming framework** is a library or platform for building, composing, and **automatically optimizing** applications powered by large language models. Rather than hand-writing a prompt string and hoping it holds up, you describe the *program* — its inputs, outputs, modules and evaluation metric — and the framework compiles that program into optimized prompts (and, in some cases, optimized weights).
 
 Three capabilities define the category:
 
-| Capability | What it means | Representative tools |
+| 💡 Capability | What it means | 🛠️ Representative tools |
 | --- | --- | --- |
 | **Declarative pipelines** | You describe the pipeline structure; the framework handles the plumbing. | DSPy, LangChain, LlamaIndex, Haystack, Semantic Kernel |
 | **Prompt optimization** | Prompts become learnable parameters, improved automatically against a metric. | DSPy, GEPA, PromptWizard, Prompt Optimizer, AdalFlow, Promptomatix |
@@ -48,17 +48,17 @@ Three capabilities define the category:
 
 The shift matters because **manual prompt engineering does not scale**. Hand-tuned prompts break silently whenever the model, the schema, or the data changes. A framework turns prompt quality into something you can **measure, version and improve automatically** — which is what teams actually need to ship reliable LLM features.
 
-## Why LLM Programming Frameworks Matter
+## 💡 Why LLM Programming Frameworks Matter
 
-- **Reliability over vibes.** Evaluation harnesses and regression suites turn "it feels better" into a number you can gate CI on.
-- **Portability.** Vendor-neutral abstractions (OpenAI-compatible APIs, MCP, JSON Schema tool contracts) let you swap models without rewriting your app.
-- **Cost control.** Automatic optimization, caching and gateway-level routing keep token spend down and steer easy prompts to small models.
-- **Team scale.** Shared prompt libraries, versioning and review workflows make prompts a first-class, auditable artifact.
-- **Self-hosting.** Every open-source project in this list can run entirely on your own infrastructure — no per-seat SaaS pricing and no prompt data leaving your VPC.
+- 🔄 **Reliability over vibes.** Evaluation harnesses and regression suites turn "it feels better" into a number you can gate CI on.
+- 🔌 **Portability.** Vendor-neutral abstractions (OpenAI-compatible APIs, MCP, JSON Schema tool contracts) let you swap models without rewriting your app.
+- 💸 **Cost control.** Automatic optimization, caching and gateway-level routing keep token spend down and steer easy prompts to small models.
+- 👥 **Team scale.** Shared prompt libraries, versioning and review workflows make prompts a first-class, auditable artifact.
+- 🔒 **Self-hosting.** Every open-source project in this list can run entirely on your own infrastructure — no per-seat SaaS pricing and no prompt data leaving your VPC.
 
-## Who This List Is For
+## 👥 Who This List Is For
 
-| Role | Start with |
+| 🧑‍💻 Role | 🛠️ Start with |
 | --- | --- |
 | **ML engineers & researchers** | Optimization frameworks (DSPy, GEPA, PromptWizard) and evaluation harnesses (Promptfoo, DeepEval). |
 | **Backend & platform engineers** | Orchestration runtimes (LangGraph, Semantic Kernel, Eino, LangChain4j) and gateways (LiteLLM, vLLM, TGI). |
@@ -66,29 +66,29 @@ The shift matters because **manual prompt engineering does not scale**. Hand-tun
 | **Indie hackers & product teams** | Hosted platforms with real free tiers (PromptBase, FlowGPT, AIPRM, Snack Prompt). |
 | **Platform & IT teams** | Self-hosted, permissively licensed tooling (Dify, Open WebUI, Ollama). |
 
-This repository tracks notable **SaaS platforms** and **open-source projects** in the **LLM programming frameworks** ecosystem. These tools shift the paradigm from manual prompt engineering to programmatic, optimizable pipelines — treating prompts as learnable parameters, enabling systematic improvement against metrics, and providing modular abstractions for building AI systems.
+🧭 This repository tracks notable **SaaS platforms** and **open-source projects** in the **LLM programming frameworks** ecosystem. These tools shift the paradigm from manual prompt engineering to programmatic, optimizable pipelines — treating prompts as learnable parameters, enabling systematic improvement against metrics, and providing modular abstractions for building AI systems.
 
 **Featured tools include** DSPy, PromptBase, PromptHero, AIPRM, FlowGPT, Snack Prompt, ChatHub, PromptPerfect, and PromptFolder.
 
 **Open-source emphasis**: this section is heavily expanded with every major active project for self-hosting, prompt optimization, and transparent AI programming — ideal for ML engineers, researchers, and teams building vendor-neutral LLM applications.
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+🙏 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
-**Popular searches:** *LLM frameworks · prompt optimization tools · prompt engineering platforms · declarative prompt programming · AI pipeline frameworks · self-hosted LLM stack · prompt management and versioning · LLM evaluation and red teaming · best prompt engineering SaaS*
+🔎 **Popular searches:** *LLM frameworks · prompt optimization tools · prompt engineering platforms · declarative prompt programming · AI pipeline frameworks · self-hosted LLM stack · prompt management and versioning · LLM evaluation and red teaming · best prompt engineering SaaS*
 
 
 
-## Sector Overview & Market Dynamics
+## 📈 Sector Overview & Market Dynamics
 
 The **prompt engineering and prompt management software** sector is a **~$0.4–0.5B global market** in 2024–2025, growing at roughly **33% CAGR** toward **~$2B by 2030** (Market.us: $381.7M in 2024 at 33.9% CAGR; Precedence Research: $505.18M in 2025 at ~32.9% CAGR; Grand View Research: $222.1M in 2023 → $2.06B by 2030 at 32.8%). Wider definitions that bundle in agent frameworks, evaluation and observability are much larger — Mordor Intelligence sizes **prompt engineering + agent programming tools at $6.95B in 2025, reaching $40.87B by 2030 (42.52% CAGR)** — but that figure covers far more than prompt tooling alone.
 
 The market is **moderately fragmented, not winner-take-all**. Grand View Research explicitly characterises prompt engineering as a **fragmented** market with "numerous market participants and product launches" — specialist vendors such as PromptBase, PromptHero, Vellum and AIPRM compete alongside large platform players, while the adjacent prompt-management niche (Langfuse, Humanloop, PromptLayer, LangSmith, Maxim AI) shows no single dominant vendor. The structural driver is that **prompt tooling is being absorbed into LLM development, observability and evaluation platforms**, so standalone vendors keep re-benchmarking themselves against bundled features; expect continued consolidation rather than a clean monopoly.
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
 *Sorted by company size (revenue / valuation) descending. Pricing and free-tier figures were verified against each vendor's own pricing pages in October 2026.*
 
-| Product | Description | Pricing | Free Tier Limits | Company Size (Revenue / Valuation) |
+| Product | Description | 💲 Pricing | 🆓 Free Tier Limits | 📊 Company Size (Revenue / Valuation) |
 | --- | --- | --- | --- | --- |
 | **[FlowGPT](https://flowgpt.com/)** | Community platform with 220K+ creators for sharing and discovering prompts. Multi-model chat across ChatGPT, Claude, Gemini and Llama, reusable "Flows" mini-apps, and token-based (Flux/Mochi) pricing. | **Plus $14.99/mo** ($144.99/yr); **Ultra $24.99/mo** ($244.99/yr). Flux/Mochi token consumption is charged on top of the subscription. | **Free forever:** full community prompt library + **5 free chat models**. Paid tiers add **25 free chats every 4 hours** across featured models (Plus) and 50 (Ultra). | **$60M raised** (July 2026) by parent company **Kaon AI** at a *several-hundred-million* valuation; earlier **$10M pre-Series A** (Feb 2024). Estimated **~$1.9M annual revenue** (July 2025). Millions of monthly users across 110 countries. |
 | **[PromptPerfect](https://promptperfect.jina.ai/)** | Prompt optimization tool that rewrites prompts with an explanation for every change. Modes: Better, Specific, Chain-of-Thought. Now also available as a self-hostable open-source release (see below). | **Standard $20/mo**, **Premium $100/mo** (Jina AI's last published prices, March 2024). ⚠️ The hosted service **shut down on 1 September 2026** after Elastic acquired Jina AI — self-host the open-source build instead. | **No permanent free tier:** a **7-day free trial** of a paid plan (the announcement mentions daily limits but never quantifies them). The open-source self-hosted version is free and unlimited. | Maker **Jina AI**, **$39M raised** ($30M Series A, Nov 2021) and **acquired by Elastic for $43.3M** (Oct 2025); parent Elastic reported **$1.483B FY2025 revenue**. |
@@ -101,11 +101,11 @@ The market is **moderately fragmented, not winner-take-all**. Grand View Researc
 
 
 
-## Open-Source GitHub Projects
+## 🐙 Open-Source GitHub Projects
 
 *Every project below is open source and self-hostable. Star counts are live, pulled from the GitHub API on October 2026, and the list is sorted by stars descending. Each star badge links to that project's stargazers page.*
 
-| Project | ⭐ Stars | License | Category | Description |
+| Project | ⭐ Stars | 📜 License | 🗂️ Category | 📝 Description |
 | --- | --- | --- | --- | --- |
 | **[Ollama](https://github.com/ollama/ollama)** <a href="https://github.com/ollama/ollama/stargazers"><img src="https://img.shields.io/github/stars/ollama/ollama?style=social&color=white" alt="Ollama stars" /></a> | 184.2k | MIT | Local Runtime | Run and serve open models locally with a single command — the default local runtime for self-hosted LLM pipelines. |
 | **[Dify](https://github.com/langgenius/dify)** <a href="https://github.com/langgenius/dify/stargazers"><img src="https://img.shields.io/github/stars/langgenius/dify?style=social&color=white" alt="Dify stars" /></a> | 159.2k | Apache-2.0 | App Builder | Build agentic workflows and RAG pipelines on one collaborative workspace, deployable to cloud, VPC or fully self-hosted. |
@@ -165,19 +165,19 @@ The market is **moderately fragmented, not winner-take-all**. Grand View Researc
 | **[onux](https://github.com/MaximeRivest/onux)** <a href="https://github.com/MaximeRivest/onux/stargazers"><img src="https://img.shields.io/github/stars/MaximeRivest/onux?style=social&color=white" alt="onux stars" /></a> | 0 | MIT | Prompt Optimization | Keras-style symbolic DAGs for LLM programs — symbolic inputs, composable layers and model.compile(optimizer="auto_prompt"). |
 | **[PromptHub (hbinr)](https://github.com/hbinr/PromptHub)** <a href="https://github.com/hbinr/PromptHub/stargazers"><img src="https://img.shields.io/github/stars/hbinr/PromptHub?style=social&color=white" alt="PromptHub (hbinr) stars" /></a> | 0 | AGPL-3.0 | Prompt Management | Local-first open-source prompt and skill management with version control, variable templates, multi-model testing and WebDAV sync. |
 
-### Also Available Outside GitHub
+### 📦 Also Available Outside GitHub
 
 - **[Parolo](https://pypi.org/project/parolo/)** — Tiny, file-based prompt store with automatic versioning. Zero infrastructure, prompts stored as plain text with immutable versions, SHA-256 hashing to only create versions when content changes, Jinja2 rendering and hot-reload support for agents. Distributed via PyPI, so it has no GitHub star count.
 
-**Frameworks for building custom systems**: Combine **DSPy** for declarative pipelines with automatic optimization, **Promptolution** for systematic prompt benchmarking, and **LogiLLM** for zero-dependency production deployment. For prompt management, layer in **PromptHub** for local-first storage with version control and **PUPT** for CLI-driven workflows. For visual prompt optimization, **PromptPerfect (Open Source)** provides browser-based improvement with explanations.
+**🧱 Frameworks for building custom systems**: Combine **DSPy** for declarative pipelines with automatic optimization, **Promptolution** for systematic prompt benchmarking, and **LogiLLM** for zero-dependency production deployment. For prompt management, layer in **PromptHub** for local-first storage with version control and **PUPT** for CLI-driven workflows. For visual prompt optimization, **PromptPerfect (Open Source)** provides browser-based improvement with explanations.
 
 
 
-**Key architectural insight**: The **programming-not-prompting** paradigm (DSPy, LogiLLM, onux) treats prompts as learnable parameters optimized against metrics — a fundamentally different approach from manual prompt engineering. However, DSPy couples optimized prompts to its program abstraction (lock-in risk), while **Promptolution produces standalone prompt strings** for better portability across systems . Framework-specific patterns (orchestration topology, state management) should not be depended upon for portability; universal patterns like JSON Schema tool contracts and MCP interop are safe to rely on .
+**🔑 Key architectural insight**: The **programming-not-prompting** paradigm (DSPy, LogiLLM, onux) treats prompts as learnable parameters optimized against metrics — a fundamentally different approach from manual prompt engineering. However, DSPy couples optimized prompts to its program abstraction (lock-in risk), while **Promptolution produces standalone prompt strings** for better portability across systems . Framework-specific patterns (orchestration topology, state management) should not be depended upon for portability; universal patterns like JSON Schema tool contracts and MCP interop are safe to rely on .
 
 
 
-## Frequently Asked Questions (FAQ)
+## ❓ Frequently Asked Questions (FAQ)
 
 **What is the difference between an LLM framework and a prompt management tool?**
 An LLM framework (DSPy, LangChain, LangGraph) orchestrates *how* your app calls the model — chaining, routing, tool use, state. A prompt management tool (PromptHub, PUPT, Promptolution) manages *the prompt itself* — storage, versioning, variables, sharing. Most production stacks use both together.
@@ -203,7 +203,7 @@ By GitHub stars among the projects tracked here: **Ollama** (184.2k), **Dify** (
 **Can I use these frameworks with any LLM provider?**
 Mostly yes. The strong open-source options (LiteLLM, Haystack, Semantic Kernel, LangChain, LlamaIndex) expose OpenAI-compatible interfaces or provider adapters for OpenAI, Anthropic, Google Gemini, Mistral, Meta Llama, DeepSeek, Groq and local models served through Ollama or vLLM.
 
-## How to Contribute
+## 🤝 How to Contribute
 
 
 
@@ -217,11 +217,11 @@ Mostly yes. The strong open-source options (LiteLLM, Haystack, Semantic Kernel, 
 
 
 
-Star the repo if you find it useful!
+⭐ Star the repo if you find it useful!
 
 
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 
 
@@ -239,6 +239,6 @@ Star the repo if you find it useful!
 
 
 
-**Made for AI engineers, ML researchers, prompt engineers, and application developers.**  
+**👩‍💻 Made for AI engineers, ML researchers, prompt engineers, and application developers.**  
 
 Let's make LLM programming more open, systematic, and vendor-neutral.
