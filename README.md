@@ -208,7 +208,7 @@ It depends on the axis. **AIPRM** gives unlimited free access to 5,400+ public p
 Self-host when prompt data cannot leave your infrastructure, when you need reproducible optimization, or when per-seat SaaS pricing hurts at scale. Use a SaaS platform when you want a marketplace, a polished UI, or prompt optimization with no engineering time. The open-source options here (Dify, Open WebUI, Ollama, Prompt Optimizer) are production-viable and MIT/Apache licensed.
 
 **How much does prompt engineering software cost?**
-Individual plans run from **$8/month** (PromptFolder Pro) to **$24.99/month** (FlowGPT Ultra, monthly billing), with most tiers landing between $15 and $30/month and annual billing cutting roughly 20%. Team and enterprise plans are quoted per seat. Exact tiers and free-tier limits are in the [SaaS/Hosted Platforms](#saas-hosted-platforms) table.
+Individual plans run from **$8/month** (PromptFolder Pro) to **$24.99/month** (FlowGPT Ultra, monthly billing), with most tiers landing between $15 and $30/month and annual billing cutting roughly 20%. Team and enterprise plans are quoted per seat. Exact tiers and free-tier limits are in the [SaaS/Hosted Platforms](#-saashosted-platforms) table.
 
 **How do I choose between a SaaS platform and an open-source framework?**
 Start from constraints, not features: data residency, budget model, team skill, and whether you need a UI or a library. If you can ship code, prefer open source; if you need a marketplace or a browser extension today, prefer SaaS. Plenty of teams run both — an open-source runtime with a commercial prompt layer on top.
