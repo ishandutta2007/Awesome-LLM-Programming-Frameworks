@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="Awesome LLM Programming Frameworks — prompt optimization, declarative programming and modular AI pipelines">
+  <title>Awesome LLM Programming Frameworks</title>
+  <desc>Animated banner for the Awesome LLM Programming Frameworks curated list, showing prompt optimization, declarative programming and modular AI pipelines.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="45%" stop-color="#131a36"/>
+      <stop offset="100%" stop-color="#1d1140"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="scrim" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#0b1020" stop-opacity="0.94"/>
+      <stop offset="68%" stop-color="#0b1020" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#0b1020" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#eae3ff"/>
+      <stop offset="68%" stop-color="#9ceaff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#7c5cff" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#00d4ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="1"/>
+    </linearGradient>
+
+    <filter id="titleGlow" x="-25%" y="-60%" width="150%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatA { 0%,100% { transform: translate(0,0) rotate(0deg); } 50% { transform: translate(16px,-20px) rotate(3deg); } }
+    @keyframes floatB { 0%,100% { transform: translate(0,0) rotate(0deg); } 50% { transform: translate(-18px,14px) rotate(-3deg); } }
+    @keyframes floatC { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(10px,16px) scale(1.05); } }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes spinRev { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    @keyframes march { to { stroke-dashoffset: -260; } }
+    @keyframes growBar { 0%,100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
+    @keyframes breathe { 0%,100% { transform: scale(1); opacity: .45; } 50% { transform: scale(1.12); opacity: .75; } }
+
+    .anim { transform-box: fill-box; transform-origin: 50% 50%; }
+    .bar { transform-box: fill-box; transform-origin: 50% 100%; }
+  </style>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect width="1280" height="420" fill="url(#bg)"/>
+
+  <ellipse cx="150" cy="70" rx="320" ry="200" fill="url(#glowA)" class="anim" style="animation: breathe 9s ease-in-out infinite;"/>
+  <ellipse cx="1150" cy="360" rx="340" ry="210" fill="url(#glowB)" class="anim" style="animation: breathe 11s ease-in-out infinite; animation-delay: -3s;"/>
+
+  <!-- static dot grid -->
+  <g fill="#ffffff" opacity="0.07">
+    <g id="row1">
+      <circle cx="40" cy="40" r="1.6"/><circle cx="100" cy="40" r="1.6"/><circle cx="160" cy="40" r="1.6"/><circle cx="220" cy="40" r="1.6"/><circle cx="280" cy="40" r="1.6"/><circle cx="340" cy="40" r="1.6"/><circle cx="400" cy="40" r="1.6"/><circle cx="460" cy="40" r="1.6"/><circle cx="520" cy="40" r="1.6"/><circle cx="580" cy="40" r="1.6"/><circle cx="640" cy="40" r="1.6"/><circle cx="700" cy="40" r="1.6"/><circle cx="760" cy="40" r="1.6"/><circle cx="820" cy="40" r="1.6"/><circle cx="880" cy="40" r="1.6"/><circle cx="940" cy="40" r="1.6"/><circle cx="1000" cy="40" r="1.6"/><circle cx="1060" cy="40" r="1.6"/><circle cx="1120" cy="40" r="1.6"/><circle cx="1180" cy="40" r="1.6"/><circle cx="1240" cy="40" r="1.6"/>
+    </g>
+    <use xlink:href="#row1" y="60"/>
+    <use xlink:href="#row1" y="120"/>
+    <use xlink:href="#row1" y="180"/>
+    <use xlink:href="#row1" y="240"/>
+    <use xlink:href="#row1" y="300"/>
+    <use xlink:href="#row1" y="360"/>
+  </g>
+
+  <!-- travelling scan highlight -->
+  <rect x="-160" y="0" width="140" height="420" fill="url(#waveGrad)" opacity="0.1">
+    <animate attributeName="x" from="-160" to="1440" dur="11s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ============ ANIMATED DECOR (painted behind the text) ============ -->
+  <g opacity="0.62">
+
+    <!-- orbital rings, top-left -->
+    <g class="anim" style="animation: spin 26s linear infinite;">
+      <ellipse cx="180" cy="92" rx="118" ry="40" fill="none" stroke="#7c5cff" stroke-width="1.1" stroke-opacity="0.5"/>
+      <circle cx="298" cy="92" r="4.5" fill="#8ee7ff"/>
+    </g>
+    <g class="anim" style="animation: spinRev 34s linear infinite;">
+      <ellipse cx="180" cy="92" rx="72" ry="112" fill="none" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.35"/>
+      <circle cx="108" cy="92" r="3.5" fill="#7c5cff"/>
+    </g>
+
+    <!-- orbital ring, top-right -->
+    <g class="anim" style="animation: spin 32s linear infinite;">
+      <ellipse cx="1118" cy="74" rx="104" ry="36" fill="none" stroke="#00d4ff" stroke-width="1.1" stroke-opacity="0.45"/>
+      <circle cx="1014" cy="74" r="4" fill="#7c5cff"/>
+    </g>
+
+    <!-- floating prompt pills (top band) -->
+    <g class="anim" style="animation: floatA 9s ease-in-out infinite;">
+      <rect x="60" y="118" rx="15" ry="15" width="118" height="30" fill="#ffffff" fill-opacity="0.09" stroke="#8ee7ff" stroke-opacity="0.45"/>
+      <text x="119" y="138" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#cfe9ff" text-anchor="middle">prompt{...}</text>
+    </g>
+    <g class="anim" style="animation: floatB 11s ease-in-out infinite; animation-delay: -2s;">
+      <rect x="196" y="60" rx="15" ry="15" width="104" height="30" fill="#7c5cff" fill-opacity="0.16" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <text x="248" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#ddd2ff" text-anchor="middle">dspy.compile</text>
+    </g>
+    <g class="anim" style="animation: floatC 13s ease-in-out infinite; animation-delay: -5s;">
+      <rect x="322" y="112" rx="15" ry="15" width="96" height="30" fill="#00d4ff" fill-opacity="0.14" stroke="#67e8f9" stroke-opacity="0.45"/>
+      <text x="370" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#bdf1ff" text-anchor="middle">eval()</text>
+    </g>
+    <g class="anim" style="animation: floatB 10s ease-in-out infinite; animation-delay: -7s;">
+      <rect x="880" y="120" rx="15" ry="15" width="112" height="30" fill="#ffffff" fill-opacity="0.09" stroke="#8ee7ff" stroke-opacity="0.4"/>
+      <text x="936" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#cfe9ff" text-anchor="middle">gepa.reflect</text>
+    </g>
+    <g class="anim" style="animation: floatA 12s ease-in-out infinite; animation-delay: -4s;">
+      <rect x="1006" y="58" rx="15" ry="15" width="100" height="30" fill="#7c5cff" fill-opacity="0.16" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <text x="1056" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#ddd2ff" text-anchor="middle">llm.call</text>
+    </g>
+    <g class="anim" style="animation: floatC 14s ease-in-out infinite; animation-delay: -8s;">
+      <rect x="1120" y="112" rx="15" ry="15" width="106" height="30" fill="#00d4ff" fill-opacity="0.14" stroke="#67e8f9" stroke-opacity="0.4"/>
+      <text x="1173" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#bdf1ff" text-anchor="middle">chain()</text>
+    </g>
+
+    <!-- floating pills (bottom band) -->
+    <g class="anim" style="animation: floatC 10s ease-in-out infinite; animation-delay: -1s;">
+      <rect x="150" y="336" rx="15" ry="15" width="126" height="30" fill="#ffffff" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.4"/>
+      <text x="213" y="356" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#d8ccff" text-anchor="middle">langgraph</text>
+    </g>
+    <g class="anim" style="animation: floatA 12.5s ease-in-out infinite; animation-delay: -6s;">
+      <rect x="292" y="376" rx="15" ry="15" width="112" height="30" fill="#00d4ff" fill-opacity="0.12" stroke="#67e8f9" stroke-opacity="0.35"/>
+      <text x="348" y="396" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#bdf1ff" text-anchor="middle">promptfoo</text>
+    </g>
+    <g class="anim" style="animation: floatB 11.5s ease-in-out infinite; animation-delay: -3.5s;">
+      <rect x="884" y="344" rx="15" ry="15" width="118" height="30" fill="#ffffff" fill-opacity="0.08" stroke="#8ee7ff" stroke-opacity="0.4"/>
+      <text x="943" y="364" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#cfe9ff" text-anchor="middle">litellm</text>
+    </g>
+    <g class="anim" style="animation: floatC 13.5s ease-in-out infinite; animation-delay: -9s;">
+      <rect x="1036" y="286" rx="15" ry="15" width="108" height="30" fill="#7c5cff" fill-opacity="0.15" stroke="#a78bfa" stroke-opacity="0.45"/>
+      <text x="1090" y="306" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#ddd2ff" text-anchor="middle">ollama run</text>
+    </g>
+
+    <!-- flowing signal waves (bottom) -->
+    <path d="M-40 300 C 120 268, 200 348, 360 316 S 620 268, 780 312 S 1040 350, 1320 292"
+          fill="none" stroke="url(#waveGrad)" stroke-width="2.4" stroke-linecap="round"
+          stroke-dasharray="130 130" style="animation: march 7s linear infinite;"/>
+    <path d="M-40 322 C 140 294, 220 356, 380 330 S 640 288, 800 330 S 1060 360, 1320 312"
+          fill="none" stroke="#7c5cff" stroke-width="1.2" stroke-opacity="0.5"
+          stroke-dasharray="60 60" style="animation: march 11s linear infinite;"/>
+
+    <!-- animated bar chart (bottom-left, inside the canvas) -->
+    <g>
+      <line x1="30" y1="404" x2="150" y2="404" stroke="#7c5cff" stroke-width="1.2" stroke-opacity="0.5"/>
+      <rect x="34" y="348" width="14" height="56" rx="4" fill="url(#barGrad)" class="bar" style="animation: growBar 3.4s ease-in-out infinite; animation-delay: 0s;"/>
+      <rect x="56" y="348" width="14" height="56" rx="4" fill="url(#barGrad)" class="bar" style="animation: growBar 3.4s ease-in-out infinite; animation-delay: .25s;"/>
+      <rect x="78" y="348" width="14" height="56" rx="4" fill="url(#barGrad)" class="bar" style="animation: growBar 3.4s ease-in-out infinite; animation-delay: .5s;"/>
+      <rect x="100" y="348" width="14" height="56" rx="4" fill="url(#barGrad)" class="bar" style="animation: growBar 3.4s ease-in-out infinite; animation-delay: .75s;"/>
+      <rect x="122" y="348" width="14" height="56" rx="4" fill="url(#barGrad)" class="bar" style="animation: growBar 3.4s ease-in-out infinite; animation-delay: 1s;"/>
+    </g>
+
+    <!-- animated line graph (bottom-right) -->
+    <g stroke="#8ee7ff" fill="none" stroke-width="2">
+      <polyline points="1080,404 1100,386 1120,394 1140,368 1160,376 1180,352 1200,362 1220,338 1244,346"
+                stroke-dasharray="260" style="animation: march 5.5s linear infinite;"/>
+    </g>
+
+    <!-- pulsing nodes along the top -->
+    <g fill="#8ee7ff">
+      <circle cx="480" cy="52" r="3">
+        <animate attributeName="r" values="3;5;3" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="600" cy="38" r="3">
+        <animate attributeName="r" values="3;5;3" dur="4s" repeatCount="indefinite" begin="-1s"/>
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" begin="-1s"/>
+      </circle>
+      <circle cx="720" cy="52" r="3">
+        <animate attributeName="r" values="3;5;3" dur="4s" repeatCount="indefinite" begin="-2s"/>
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" begin="-2s"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- soft scrim: keeps the foreground text readable over the animation -->
+  <ellipse cx="640" cy="205" rx="560" ry="132" fill="url(#scrim)"/>
+
+  <!-- ============ FOREGROUND (painted last, always on top) ============ -->
+  <g text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="640" y="150" font-size="17" font-weight="700" letter-spacing="7" fill="#a5f0ff">CURATED LIST &#183; OCTOBER 2026</text>
+
+    <text x="640" y="212" font-size="54" font-weight="800" fill="url(#titleGrad)" textLength="1020" lengthAdjust="spacingAndGlyphs" filter="url(#titleGlow)">Awesome LLM Programming Frameworks</text>
+
+    <text x="640" y="256" font-size="23" font-weight="600" fill="#e2e8fb" textLength="880" lengthAdjust="spacingAndGlyphs">Prompt Optimization &#183; Declarative Programming &#183; Modular AI Pipelines</text>
+
+    <g>
+      <line x1="470" y1="284" x2="596" y2="284" stroke="#7c5cff" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="640" cy="284" r="4" fill="#8ee7ff">
+        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="684" y1="284" x2="810" y2="284" stroke="#00d4ff" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    </g>
+
+    <text x="640" y="320" font-size="16" font-weight="700" fill="#b7c2e8">57 open-source projects &#183; 8 SaaS platforms &#183; 65 tools compared</text>
+  </g>
+</svg>

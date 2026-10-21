@@ -1,5 +1,9 @@
 # Awesome LLM Programming Frameworks
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome LLM Programming Frameworks — prompt optimization, declarative programming and modular AI pipelines" width="100%" />
+</p>
+
 > **The curated list of LLM programming frameworks, prompt optimization tools, and modular AI pipeline frameworks — 8 hosted SaaS platforms and 57 open-source GitHub projects, compared side by side.**
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
