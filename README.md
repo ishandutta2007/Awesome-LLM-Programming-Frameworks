@@ -66,93 +66,71 @@ The market is **moderately fragmented, not winner-take-all**. Grand View Researc
 
 ## Open-Source GitHub Projects
 
+*Every project below is open source and self-hostable. Star counts are live, pulled from the GitHub API on October 2026, and the list is sorted by stars descending. Each star badge links to that project's stargazers page.*
 
+| Project | ⭐ Stars | License | Category | Description |
+| --- | --- | --- | --- | --- |
+| **[Ollama](https://github.com/ollama/ollama)** <a href="https://github.com/ollama/ollama/stargazers"><img src="https://img.shields.io/github/stars/ollama/ollama?style=social&color=white" alt="Ollama stars" /></a> | 184.2k | MIT | Local Runtime | Run and serve open models locally with a single command — the default local runtime for self-hosted LLM pipelines. |
+| **[Dify](https://github.com/langgenius/dify)** <a href="https://github.com/langgenius/dify/stargazers"><img src="https://img.shields.io/github/stars/langgenius/dify?style=social&color=white" alt="Dify stars" /></a> | 159.2k | Apache-2.0 | App Builder | Build agentic workflows and RAG pipelines on one collaborative workspace, deployable to cloud, VPC or fully self-hosted. |
+| **[Open WebUI](https://github.com/open-webui/open-webui)** <a href="https://github.com/open-webui/open-webui/stargazers"><img src="https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white" alt="Open WebUI stars" /></a> | 156.4k | BSD-3-Clause | App Builder | User-friendly self-hosted AI interface with built-in prompt tooling for Ollama, OpenAI-compatible APIs and RAG. |
+| **[LangChain](https://github.com/langchain-ai/langchain)** <a href="https://github.com/langchain-ai/langchain/stargazers"><img src="https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white" alt="LangChain stars" /></a> | 148.2k | MIT | Orchestration | The de-facto agent engineering platform. Composable primitives for chaining LLM calls, tools and retrievers into production pipelines. |
+| **[Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)** <a href="https://github.com/microsoft/generative-ai-for-beginners/stargazers"><img src="https://img.shields.io/github/stars/microsoft/generative-ai-for-beginners?style=social&color=white" alt="Generative AI for Beginners stars" /></a> | 121.8k | MIT | Cookbooks & Learning | 21 lessons for getting started building with generative AI — the standard guided on-ramp for new LLM developers. |
+| **[vLLM](https://github.com/vllm-project/vllm)** <a href="https://github.com/vllm-project/vllm/stargazers"><img src="https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white" alt="vLLM stars" /></a> | 94.8k | Apache-2.0 | Inference & Serving | High-throughput, memory-efficient inference and serving engine for LLMs, with continuous batching and OpenAI-compatible endpoints. |
+| **[OpenAI Cookbook](https://github.com/openai/openai-cookbook)** <a href="https://github.com/openai/openai-cookbook/stargazers"><img src="https://img.shields.io/github/stars/openai/openai-cookbook?style=social&color=white" alt="OpenAI Cookbook stars" /></a> | 76.7k | MIT | Cookbooks & Learning | Official examples and guides for using the OpenAI API — evals, retrieval, structured outputs and agent patterns. |
+| **[LiteLLM](https://github.com/BerriAI/litellm)** <a href="https://github.com/BerriAI/litellm/stargazers"><img src="https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white" alt="LiteLLM stars" /></a> | 61.7k | MIT | Gateway & Observability | Fast AI gateway calling 100+ LLM APIs in OpenAI format, with cost tracking, guardrails, load balancing and logging. |
+| **[Flowise](https://github.com/FlowiseAI/Flowise)** <a href="https://github.com/FlowiseAI/Flowise/stargazers"><img src="https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white" alt="Flowise stars" /></a> | 55.5k | Apache-2.0 | App Builder | Visual builder for AI agents and LLM chains — drag-and-drop pipelines that export clean code when you outgrow the canvas. |
+| **[Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks)** <a href="https://github.com/anthropics/claude-cookbooks/stargazers"><img src="https://img.shields.io/github/stars/anthropics/claude-cookbooks?style=social&color=white" alt="Anthropic Cookbook stars" /></a> | 53.7k | MIT | Cookbooks & Learning | Notebooks and recipes from Anthropic showing effective ways of using Claude, including RAG and tool-use patterns. |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** <a href="https://github.com/run-llama/llama_index/stargazers"><img src="https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white" alt="LlamaIndex stars" /></a> | 52.6k | MIT | Orchestration | Data framework for connecting LLMs to private corpora — ingestion, indexing and retrieval for RAG-heavy applications. |
+| **[LangGraph](https://github.com/langchain-ai/langgraph)** <a href="https://github.com/langchain-ai/langgraph/stargazers"><img src="https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white" alt="LangGraph stars" /></a> | 43.7k | MIT | Orchestration | Graph-based runtime for resilient agents: explicit state, cycles and human-in-the-loop checkpoints instead of opaque chains. |
+| **[FastChat](https://github.com/lm-sys/FastChat)** <a href="https://github.com/lm-sys/FastChat/stargazers"><img src="https://img.shields.io/github/stars/lm-sys/FastChat?style=social&color=white" alt="FastChat stars" /></a> | 39.5k | Apache-2.0 | Inference & Serving | Open platform for training, serving and evaluating LLMs; release repo for Vicuna and the Chatbot Arena leaderboard. |
+| **[Prompt Optimizer](https://github.com/linshenkx/prompt-optimizer)** <a href="https://github.com/linshenkx/prompt-optimizer/stargazers"><img src="https://img.shields.io/github/stars/linshenkx/prompt-optimizer?style=social&color=white" alt="Prompt Optimizer stars" /></a> | 38.8k | MIT | Prompt Optimization | Browser- and CLI-based prompt optimizer with multi-model comparison and systematic prompt rewriting for better outputs. |
+| **[DSPy](https://github.com/stanfordnlp/dspy)** <a href="https://github.com/stanfordnlp/dspy/stargazers"><img src="https://img.shields.io/github/stars/stanfordnlp/dspy?style=social&color=white" alt="DSPy stars" /></a> | 38.7k | MIT | Prompt Optimization | The leading framework for programming—not prompting—language models. Declarative signatures plus optimizers that compile prompts and weights against metrics automatically. |
+| **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)** <a href="https://github.com/openai/openai-agents-python/stargazers"><img src="https://img.shields.io/github/stars/openai/openai-agents-python?style=social&color=white" alt="OpenAI Agents SDK stars" /></a> | 30.2k | MIT | Orchestration | Lightweight framework for multi-agent workflows with handoffs, guardrails and built-in tracing. |
+| **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)** <a href="https://github.com/microsoft/semantic-kernel/stargazers"><img src="https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social&color=white" alt="Semantic Kernel stars" /></a> | 28.7k | MIT | Orchestration | Microsoft's SDK for embedding LLM calls in C#, Python and Java, with plug-in abstractions and process orchestration. |
+| **[Haystack](https://github.com/deepset-ai/haystack)** <a href="https://github.com/deepset-ai/haystack/stargazers"><img src="https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white" alt="Haystack stars" /></a> | 26.8k | Apache-2.0 | Orchestration | Production AI orchestration with explicit control over retrieval, routing, memory and generation; strong RAG and agent story. |
+| **[Promptfoo](https://github.com/promptfoo/promptfoo)** <a href="https://github.com/promptfoo/promptfoo/stargazers"><img src="https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white" alt="Promptfoo stars" /></a> | 26.2k | MIT | Evaluation & Ops | Test prompts, agents and RAG pipelines; red-team and scan for vulnerabilities, then compare GPT/Claude/Gemini/DeepSeek side by side. Declarative config, CI/CD ready. |
+| **[Google ADK (Python)](https://github.com/google/adk-python)** <a href="https://github.com/google/adk-python/stargazers"><img src="https://img.shields.io/github/stars/google/adk-python?style=social&color=white" alt="Google ADK (Python) stars" /></a> | 21.9k | Apache-2.0 | Orchestration | Code-first toolkit for building, evaluating and deploying multi-agent systems with a flexible agent model. |
+| **[Guidance](https://github.com/guidance-ai/guidance)** <a href="https://github.com/guidance-ai/guidance/stargazers"><img src="https://img.shields.io/github/stars/guidance-ai/guidance?style=social&color=white" alt="Guidance stars" /></a> | 21.8k | MIT | Orchestration | A constraint language for controlling LLM output — token-level steering, regex and JSON enforcement inside the generation loop. |
+| **[OpenAI Evals](https://github.com/openai/evals)** <a href="https://github.com/openai/evals/stargazers"><img src="https://img.shields.io/github/stars/openai/evals?style=social&color=white" alt="OpenAI Evals stars" /></a> | 19.6k | MIT | Evaluation & Ops | Framework for evaluating LLMs and LLM systems, plus an open-source registry of benchmarks. |
+| **[DeepEval](https://github.com/confident-ai/deepeval)** <a href="https://github.com/confident-ai/deepeval/stargazers"><img src="https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white" alt="DeepEval stars" /></a> | 19k | Apache-2.0 | Evaluation & Ops | The LLM evaluation framework — pytest-style assertions, metric scoring and CI integration for production LLM apps. |
+| **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)** <a href="https://github.com/microsoft/agent-framework/stargazers"><img src="https://img.shields.io/github/stars/microsoft/agent-framework?style=social&color=white" alt="Microsoft Agent Framework stars" /></a> | 14.3k | MIT | Orchestration | Successor framework for orchestrating agents and multi-agent workflows across Python and .NET. |
+| **[Eino](https://github.com/cloudwego/eino)** <a href="https://github.com/cloudwego/eino/stargazers"><img src="https://img.shields.io/github/stars/cloudwego/eino?style=social&color=white" alt="Eino stars" /></a> | 13.4k | Apache-2.0 | Orchestration | Go-native LLM application development framework with composable component interfaces and built-in streaming support. |
+| **[LangChain4j](https://github.com/langchain4j/langchain4j)** <a href="https://github.com/langchain4j/langchain4j/stargazers"><img src="https://img.shields.io/github/stars/langchain4j/langchain4j?style=social&color=white" alt="LangChain4j stars" /></a> | 13.3k | Apache-2.0 | Orchestration | Idiomatic Java library for LLM apps on the JVM — AI Services, tool calling, RAG and MCP support, Spring Boot friendly. |
+| **[txtai](https://github.com/neuml/txtai)** <a href="https://github.com/neuml/txtai/stargazers"><img src="https://img.shields.io/github/stars/neuml/txtai?style=social&color=white" alt="txtai stars" /></a> | 13k | Apache-2.0 | Orchestration | All-in-one framework embedding vector search, graph networks and LLM orchestration into a single stack. |
+| **[Ludwig](https://github.com/ludwig-ai/ludwig)** <a href="https://github.com/ludwig-ai/ludwig/stargazers"><img src="https://img.shields.io/github/stars/ludwig-ai/ludwig?style=social&color=white" alt="Ludwig stars" /></a> | 11.8k | Apache-2.0 | Training & Serving | Low-code declarative framework for training and serving custom LLMs, with a config-driven approach to model definition. |
+| **[PocketFlow](https://github.com/The-Pocket/PocketFlow)** <a href="https://github.com/The-Pocket/PocketFlow/stargazers"><img src="https://img.shields.io/github/stars/The-Pocket/PocketFlow?style=social&color=white" alt="PocketFlow stars" /></a> | 11.3k | MIT | Orchestration | A 100-line minimalist LLM framework where agents are nodes in a graph. Tiny surface area, easy to read and audit. |
+| **[Promptflow](https://github.com/microsoft/promptflow)** <a href="https://github.com/microsoft/promptflow/stargazers"><img src="https://img.shields.io/github/stars/microsoft/promptflow?style=social&color=white" alt="Promptflow stars" /></a> | 11.3k | MIT | Evaluation & Ops | Build high-quality LLM apps end to end — prototyping, testing, deployment and monitoring in one developer-centric workflow. |
+| **[Text Generation Inference](https://github.com/huggingface/text-generation-inference)** <a href="https://github.com/huggingface/text-generation-inference/stargazers"><img src="https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white" alt="Text Generation Inference stars" /></a> | 10.9k | Apache-2.0 | Inference & Serving | Production-grade text generation server with tensor parallelism, token streaming and continuous batching. |
+| **[AutoAgent](https://github.com/HKUDS/AutoAgent)** <a href="https://github.com/HKUDS/AutoAgent/stargazers"><img src="https://img.shields.io/github/stars/HKUDS/AutoAgent?style=social&color=white" alt="AutoAgent stars" /></a> | 9.8k | MIT | Orchestration | Fully automated, zero-code framework that generates and iterates on agent systems from a natural-language goal. |
+| **[Context Engineering Handbook](https://github.com/jasontang-ai/Context-Engineering)** <a href="https://github.com/jasontang-ai/Context-Engineering/stargazers"><img src="https://img.shields.io/github/stars/jasontang-ai/Context-Engineering?style=social&color=white" alt="Context Engineering Handbook stars" /></a> | 9.3k | MIT | Prompt Optimization | First-principles handbook on context design, orchestration and optimization — the step beyond manual prompt engineering. |
+| **[GEPA](https://github.com/gepa-ai/gepa)** <a href="https://github.com/gepa-ai/gepa/stargazers"><img src="https://img.shields.io/github/stars/gepa-ai/gepa?style=social&color=white" alt="GEPA stars" /></a> | 7.1k | MIT | Prompt Optimization | Reflective prompt evolution: an optimizer that reflects on trajectories and evolves prompts far beyond one-shot rewriting. |
+| **[Promptify](https://github.com/promptslab/Promptify)** <a href="https://github.com/promptslab/Promptify/stargazers"><img src="https://img.shields.io/github/stars/promptslab/Promptify?style=social&color=white" alt="Promptify stars" /></a> | 4.6k | Apache-2.0 | Prompt Optimization | Prompt engineering plus prompt versioning in one library — extract, structure and version prompts into reusable components. |
+| **[AdalFlow](https://github.com/SylphAI-Inc/AdalFlow)** <a href="https://github.com/SylphAI-Inc/AdalFlow/stargazers"><img src="https://img.shields.io/github/stars/SylphAI-Inc/AdalFlow?style=social&color=white" alt="AdalFlow stars" /></a> | 4.2k | MIT | Prompt Optimization | The library to build and auto-optimize LLM applications. Single-optimizer LLM-AutoDiff approach with fewer abstractions than DSPy. |
+| **[PromptWizard](https://github.com/microsoft/PromptWizard)** <a href="https://github.com/microsoft/PromptWizard/stargazers"><img src="https://img.shields.io/github/stars/microsoft/PromptWizard?style=social&color=white" alt="PromptWizard stars" /></a> | 4k | MIT | Prompt Optimization | Task-aware, agent-driven prompt optimization that synthesises and critiques prompts for a target task automatically. |
+| **[Prompt Engine](https://github.com/microsoft/prompt-engine)** <a href="https://github.com/microsoft/prompt-engine/stargazers"><img src="https://img.shields.io/github/stars/microsoft/prompt-engine?style=social&color=white" alt="Prompt Engine stars" /></a> | 2.8k | MIT | Prompt Optimization | A small library of helpers for developers crafting prompts for large language models. |
+| **[PromptHub (legeling)](https://github.com/legeling/PromptHub)** <a href="https://github.com/legeling/PromptHub/stargazers"><img src="https://img.shields.io/github/stars/legeling/PromptHub?style=social&color=white" alt="PromptHub (legeling) stars" /></a> | 1.7k | AGPL-3.0 | Prompt Management | All-in-one AI toolbox for prompt, agent and skill management with one-click distribution to 15+ platforms and MCP management. |
+| **[GPTSwarm](https://github.com/metauto-ai/GPTSwarm)** <a href="https://github.com/metauto-ai/GPTSwarm/stargazers"><img src="https://img.shields.io/github/stars/metauto-ai/GPTSwarm?style=social&color=white" alt="GPTSwarm stars" /></a> | 1.1k | MIT | Prompt Optimization | Self-improving agents with reinforcement learning and prompt optimization — treats prompts as trainable policy parameters. |
+| **[Prompt-Ops](https://github.com/meta-llama/prompt-ops)** <a href="https://github.com/meta-llama/prompt-ops/stargazers"><img src="https://img.shields.io/github/stars/meta-llama/prompt-ops?style=social&color=white" alt="Prompt-Ops stars" /></a> | 1k | MIT | Prompt Optimization | Meta's open-source tool for LLM prompt optimization, applying optimization techniques from Meta's own research. |
+| **[Promptomatix](https://github.com/SalesforceAIResearch/promptomatix)** <a href="https://github.com/SalesforceAIResearch/promptomatix/stargazers"><img src="https://img.shields.io/github/stars/SalesforceAIResearch/promptomatix?style=social&color=white" alt="Promptomatix stars" /></a> | 980 | Apache-2.0 | Prompt Optimization | Salesforce's automatic prompt optimization framework for large language models, covering instruction and few-shot generation. |
+| **[SAMMO](https://github.com/microsoft/sammo)** <a href="https://github.com/microsoft/sammo/stargazers"><img src="https://img.shields.io/github/stars/microsoft/sammo?style=social&color=white" alt="SAMMO stars" /></a> | 781 | MIT | Prompt Optimization | Structure-aware Multi-Objective Metaprompt Optimization — mutates prompt structure, not just wording, and scores on multiple objectives. |
+| **[Trace](https://github.com/microsoft/Trace)** <a href="https://github.com/microsoft/Trace/stargazers"><img src="https://img.shields.io/github/stars/microsoft/Trace?style=social&color=white" alt="Trace stars" /></a> | 762 | MIT | Prompt Optimization | End-to-end generative optimization for AI agents: observability wired directly into a closed-loop optimizer. |
+| **[Awesome-LLM-Prompt-Optimization](https://github.com/jxzhangjhu/Awesome-LLM-Prompt-Optimization)** <a href="https://github.com/jxzhangjhu/Awesome-LLM-Prompt-Optimization/stargazers"><img src="https://img.shields.io/github/stars/jxzhangjhu/Awesome-LLM-Prompt-Optimization?style=social&color=white" alt="Awesome-LLM-Prompt-Optimization stars" /></a> | 420 | MIT | Prompt Optimization | Curated list of prompt optimization and tuning methods for LLMs — the paper-level map of the field. |
+| **[Dynamic Prompts](https://github.com/adieyal/dynamicprompts)** <a href="https://github.com/adieyal/dynamicprompts/stargazers"><img src="https://img.shields.io/github/stars/adieyal/dynamicprompts?style=social&color=white" alt="Dynamic Prompts stars" /></a> | 165 | MIT | Prompt Management | Templating language for combinatorial prompt generation with wildcard syntax and MagicPrompt model integration for Stable Diffusion workflows. |
+| **[Promptolution](https://github.com/gepromptet/promptolution)** <a href="https://github.com/gepromptet/promptolution/stargazers"><img src="https://img.shields.io/github/stars/gepromptet/promptolution?style=social&color=white" alt="Promptolution stars" /></a> | 157 | Apache-2.0 | Prompt Optimization | Unified, modular framework for prompt optimization with iterative routines, token-budget callbacks and multiple optimizer algorithms (OPRO, EvoPrompt, CAPO). |
+| **[MarciAI](https://github.com/marciaiorg/marciai)** <a href="https://github.com/marciaiorg/marciai/stargazers"><img src="https://img.shields.io/github/stars/marciaiorg/marciai?style=social&color=white" alt="MarciAI stars" /></a> | 13 | GPL-3.0 | Prompt Management | Open-source alternative to AIPRM for ChatGPT — free Chrome extension with 5,000+ curated prompts, variables and advanced search. |
+| **[PromptPerfect (Open Source)](https://github.com/Beagle-AI-automation/promptperfect)** <a href="https://github.com/Beagle-AI-automation/promptperfect/stargazers"><img src="https://img.shields.io/github/stars/Beagle-AI-automation/promptperfect?style=social&color=white" alt="PromptPerfect (Open Source) stars" /></a> | 8 | MIT | Prompt Management | Open-source prompt optimization tool (Next.js + Vercel AI SDK). Pick Better / Specific / Chain-of-Thought modes with explanations; BYOK, keys stay local. |
+| **[PromptHub (FLi79Za)](https://github.com/FLi79Za/PromptHub)** <a href="https://github.com/FLi79Za/PromptHub/stargazers"><img src="https://img.shields.io/github/stars/FLi79Za/PromptHub?style=social&color=white" alt="PromptHub (FLi79Za) stars" /></a> | 6 | MIT | Prompt Management | Self-hosted local web app for prompt management — Python + Flask + SQLite, no cloud sync, no accounts, no telemetry. |
+| **[Exemplar Prompt Hub](https://github.com/shubhanshusingh/exemplar-prompt-hub)** <a href="https://github.com/shubhanshusingh/exemplar-prompt-hub/stargazers"><img src="https://img.shields.io/github/stars/shubhanshusingh/exemplar-prompt-hub?style=social&color=white" alt="Exemplar Prompt Hub stars" /></a> | 5 | MIT | Prompt Management | FastAPI-based prompt management service with versioning, tagging and SQLite/PostgreSQL backends. |
+| **[LogiLLM](https://github.com/mjbommar/logillm)** <a href="https://github.com/mjbommar/logillm/stargazers"><img src="https://img.shields.io/github/stars/mjbommar/logillm?style=social&color=white" alt="LogiLLM stars" /></a> | 2 | MIT | Prompt Optimization | Zero-dependency enterprise alternative to DSPy using only the Python standard library — HybridOptimizer, persistence and Pydantic type safety. |
+| **[pocket-prompt](https://github.com/dpshde/pocket-prompt-tui)** <a href="https://github.com/dpshde/pocket-prompt-tui/stargazers"><img src="https://img.shields.io/github/stars/dpshde/pocket-prompt-tui?style=social&color=white" alt="pocket-prompt stars" /></a> | 1 | MIT | Prompt Management | Go-based prompt manager with template and CLI support — boolean tag search, clipboard formats, git sync and a live-search TUI. |
+| **[pico-dspy](https://github.com/mbachry/pico-dspy)** <a href="https://github.com/mbachry/pico-dspy/stargazers"><img src="https://img.shields.io/github/stars/mbachry/pico-dspy?style=social&color=white" alt="pico-dspy stars" /></a> | 1 | MIT | Prompt Optimization | Stripped-down DSPy variant using pydantic-ai instead of litellm for faster import, with a migration path to full DSPy when GEPA or fine-tuning is needed. |
+| **[PUPT](https://github.com/apowers313/pupt)** <a href="https://github.com/apowers313/pupt/stargazers"><img src="https://img.shields.io/github/stars/apowers313/pupt?style=social&color=white" alt="PUPT stars" /></a> | 0 | MIT | Prompt Management | CLI tool for managing and using AI prompts — Handlebars templates, interactive fuzzy search, history tracking and git/npm installs. |
+| **[onux](https://github.com/MaximeRivest/onux)** <a href="https://github.com/MaximeRivest/onux/stargazers"><img src="https://img.shields.io/github/stars/MaximeRivest/onux?style=social&color=white" alt="onux stars" /></a> | 0 | MIT | Prompt Optimization | Keras-style symbolic DAGs for LLM programs — symbolic inputs, composable layers and model.compile(optimizer="auto_prompt"). |
+| **[PromptHub (hbinr)](https://github.com/hbinr/PromptHub)** <a href="https://github.com/hbinr/PromptHub/stargazers"><img src="https://img.shields.io/github/stars/hbinr/PromptHub?style=social&color=white" alt="PromptHub (hbinr) stars" /></a> | 0 | AGPL-3.0 | Prompt Management | Local-first open-source prompt and skill management with version control, variable templates, multi-model testing and WebDAV sync. |
 
-- **[DSPy](https://github.com/stanfordnlp/dspy)**  
+### Also Available Outside GitHub
 
-  **The leading framework for programming—not prompting—language models** — Stanford NLP, 38K+ stars. Declarative Python code with modular signatures; optimizers automatically compile prompts and weights against metrics. Supports simple classifiers, RAG pipelines, and agent loops. The definitive open-source alternative to manual prompt engineering .
-
-
-
-- **[PromptPerfect (Open Source)](https://github.com/Beagle-AI-automation/promptperfect)**  
-
-  **Open-source prompt optimization tool** — Next.js 16 + TypeScript + Vercel AI SDK. Paste any prompt, pick optimization mode (Better/Specific/Chain-of-Thought), get improved version with educational explanations. Supports OpenAI, Anthropic, and Gemini via BYOK. Privacy-first: API keys stored locally in browser. Includes n8n workflow templates .
-
-
-
-- **[MarciAI](https://github.com/marciaiorg/marciai)**  
-
-  **Open-source alternative to AIPRM for ChatGPT** — free Chrome extension with 5,000+ curated prompts. No login required, fully open-source, with prompt management, variables, advanced search, and collaboration features. Positioned as a smarter, more flexible AIPRM replacement .
-
-
-
-- **[PromptHub](https://github.com/hbinr/PromptHub)**  
-
-  **Open-source, local-first prompt and skill management tool** — manages prompts with version control, variable templates (`{{variable}}`), and multi-model testing. One-click distribution to Claude Code, Cursor, Windsurf, Codex, and 15+ AI coding platforms. Features WebDAV sync, private folders, and self-hosted web version .
-
-
-
-- **[Promptolution](https://github.com/finitearth/promptolution)**  
-
-  **Research-oriented prompt optimization framework** — designed for systematic benchmarking with iterative optimize routines, callbacks for token budget tracking, and support for multiple optimizers (OPRO, EvoPromptDE, EvoPromptGA, CAPO). Produces standalone prompt strings with better portability than DSPy's program abstraction .
-
-
-
-- **[LogiLLM](https://github.com/mjbommar/logillm)**  
-
-  **Zero-dependency enterprise alternative to DSPy** — core framework uses only Python standard library. Features HybridOptimizer (prompts + hyperparameters simultaneously), built-in persistence for saving/loading optimized modules, native async support, and full Pydantic type safety. Designed for production systems where DSPy's 15+ dependencies are a barrier .
-
-
-
-- **[pico-dspy](https://pypi.org/project/pico-dspy/)**  
-
-  **Stripped-down DSPy variant** — uses pydantic-ai instead of litellm for faster import. Supports the usual signature+predict flow during development, with a migration path to full DSPy when GEPA or fine-tuning is needed. Ideal for highly iterative development with auto-reloaders .
-
-
-
-- **[onux](https://pypi.org/project/onux/)**  
-
-  **Keras-style symbolic DAGs for LLM programs** — early-stage Python library inspired by Keras design. Features symbolic inputs, composable layers (Generate, ChainOfThought, ReAct, Retrieve, ExecuteSQL), and `model.compile(optimizer="auto_prompt")` for automatic prompt optimization .
-
-
-
-- **[PromptHub (FLi79Za)](https://github.com/FLi79Za/PromptHub)**  
-
-  **Self-hosted local web app for prompt management** — Python + Flask + SQLite, no cloud sync, no accounts, no telemetry. Features descriptor packs for reusable components, variant families, Ollama integration for optional AI refinement, and ZIP export/import for backup and sharing .
-
-
-
-- **[PUPT (Powerful Universal Prompt Tool)](https://www.npmjs.com/package/pupt)**  
-
-  **CLI tool for managing and using AI prompts** — Handlebars template support, interactive fuzzy search, history tracking, output capture, and auto-annotation. Integrates with Claude Code, Kiro, or any command-line tool. Install prompts from git or npm .
-
-
-
-- **[Parolo](https://pypi.org/project/parolo/)**  
-
-  **Tiny, file-based prompt store with automatic versioning** — zero infrastructure, stores prompts as plain text with immutable versions. Uses SHA-256 hashing to only create versions when content changes. Simple API with Jinja2 rendering and hot-reload support for agents .
-
-
-
-- **[pocket-prompt](https://pkg.go.dev/github.com/dpshade/pocket-prompt)**  
-
-  **Go-based prompt manager with template and CLI support** — boolean tag search (`ai AND analysis`), templates with slots, clipboard support (plain text + JSON messages), and git synchronization. Features a live-search TUI and comprehensive CLI mode for automation .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Exemplar Prompt Hub](https://pypi.org/project/exemplar-prompt-hub/)** — FastAPI-based prompt management with versioning, tagging, and SQLite/PostgreSQL backends .
-
-- **[PromptHub (legeling)](https://github.com/legeling/PromptHub)** — All-in-one AI toolbox with prompt management, skill distribution to 15+ platforms, MCP management, and plugin support .
-
-- **[Dynamic Prompts](https://pypi.org/project/dynamicprompts-itcups/)** — Combinatorial prompt generation with wildcard syntax and MagicPrompt model integration for Stable Diffusion workflows .
-
-- **[AdalFlow](https://github.com/SylphAI-Inc/AdalFlow)** — Single-optimizer framework with LLM-AutoDiff approach; lower abstraction than DSPy but less extensible .
-
-
+- **[Parolo](https://pypi.org/project/parolo/)** — Tiny, file-based prompt store with automatic versioning. Zero infrastructure, prompts stored as plain text with immutable versions, SHA-256 hashing to only create versions when content changes, Jinja2 rendering and hot-reload support for agents. Distributed via PyPI, so it has no GitHub star count.
 
 **Frameworks for building custom systems**: Combine **DSPy** for declarative pipelines with automatic optimization, **Promptolution** for systematic prompt benchmarking, and **LogiLLM** for zero-dependency production deployment. For prompt management, layer in **PromptHub** for local-first storage with version control and **PUPT** for CLI-driven workflows. For visual prompt optimization, **PromptPerfect (Open Source)** provides browser-based improvement with explanations.
 
