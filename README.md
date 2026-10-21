@@ -44,6 +44,10 @@
 
 - [🚨 Disclaimer](#-disclaimer)
 
+- [☕ Support](#-support)
+
+- [📈 Star History](#-star-history)
+
 
 
 ## 🧠 What Are LLM Programming Frameworks?
@@ -254,6 +258,23 @@ Mostly yes. The strong open-source options (LiteLLM, Haystack, Semantic Kernel, 
 **👩‍💻 Made for AI engineers, ML researchers, prompt engineers, and application developers.**  
 
 Let's make LLM programming more open, systematic, and vendor-neutral.
+
+---
+
+## ☕ Support
+
+**Thank you!** 🙏 This list is a labour of love, built and kept up to date in the open for the benefit of the entire LLM engineering community. If it saved you an afternoon, helped you choose a framework, or pointed you at a tool you would otherwise have missed — a **⭐ star**, a **🍴 fork** or a **💬 share** with your team makes an enormous difference.
+
+| Action | What it actually helps with |
+| --- | --- |
+| ⭐ **Star** the repo | Keeps the list discoverable and signals which frameworks the community actually relies on. |
+| 🍴 **Fork** it | Send a pull request — new frameworks, corrected pricing, better descriptions. |
+| 💬 **Share** it | Drop it into your team's onboarding docs so the next engineer doesn't re-research the whole space. |
+| ☕ **Buy me a coffee** | Funds the time spent re-verifying pricing tiers, star counts and company data every month. |
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/sponsor-Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor" /></a>
+
+Every entry here was researched manually and checked against primary sources. If something looks out of date — a pricing change, a shut-down service, a renamed project — please open an issue or a pull request. Corrections are extremely welcome.
 
 ---
 
